@@ -25,7 +25,9 @@ setup(
     entry_points={
         'console_scripts': [
             'charuco_node = ros2_charuco.charuco_node:main',
-            'charuco_generate_marker = ros2_charuco.charuco_generate_marker:main'
+            'charuco_generate_marker = ros2_charuco.charuco_generate_marker:main',
+            'aruco_visualization_node = ros2_charuco.aruco_visualization_node:main',
+            'simple_aruco_visualization_node = ros2_charuco.simple_aruco_visualization_node:main'
         ],
     },
 )
